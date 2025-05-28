@@ -1,34 +1,53 @@
-# 🎯 Smart ATS Resume Checker
+**Smart ATS Resume Checker**
+Smart ATS Resume Checker is an AI-powered tool that evaluates how well your resume matches a given job description. It gives you a JD Match Percentage, highlights Missing Technical Keywords, and generates a smart Profile Summary — helping you stand out in today’s competitive job market 💼✨.
 
-The **Smart ATS Resume Checker** uses AI to evaluate how well a resume matches a job description. It provides a **JD Match Percentage**, highlights **Missing Keywords**, and offers a **Profile Summary**. This tool helps job seekers tailor their resumes to stand out in a competitive job market.
+ Key Features
+ JD Match Percentage – See how closely your resume aligns with the job description.
 
-## ⚙️ Features
-- **JD Match Percentage**: See how well your resume aligns with the job description.
-- **Missing Keywords**: Find key terms missing from your resume.
-- **Profile Summary**: Receive an AI-generated summary of your resume.
+ Missing Keywords – Identify crucial technical terms your resume is missing.
 
-## 🌐 Tech Stack
-- **Streamlit**: For building the web app interface.
-- **Google Gemini API**: AI model to analyze resumes.
-- **PyPDF2**: Extract text from resumes in PDF format.
-- **Dotenv**: Securely manage environment variables.
+ AI-Powered Summary – Get an intelligent profile overview based on your resume.
 
-## 🚀 Get Started
-1. Clone the repository to your local machine.
-2. Set up your environment by installing the required dependencies with `pip install -r requirements.txt`.
-3. Add your **Google Gemini API Key** to a `.env` file.
-4. Run the app locally with Streamlit: `streamlit run app.py`.
-5. Access the app via `http://localhost:8501`.
+ Tech Stack
+ Streamlit – To build a sleek web UI.
 
-## 🛠️ Contributing
-Contributions are always welcome! If you have suggestions, improvements, or bug fixes, feel free to fork the repo and open a pull request.
+ Hugging Face Transformers – Used with the AventIQ-AI/bert-talentmatchai model for semantic matching.
 
-## 📄 License 
-This project is open-source and available under the MIT License.
+ PyPDF2 – Extracts text from your uploaded PDF resume.
 
-## 📖 Learning Journey
-This project is part of my journey to build 100 projects, focusing on enhancing resumes for better job matching. It's my 3rd project in this series, leveraging the power of AI and NLP to provide valuable insights into how to improve job application materials.
+ Dotenv – Manages sensitive environment variables securely.
 
+ How to Get Started
+ Clone the repo to your local machine.
+
+ Install dependencies:
+pip install -r requirements.txt
+
+ Add your Google Gemini API Key to a .env file (or use Hugging Face token if switching).
+
+ Run the app:
+streamlit run app.py
+
+ Open in browser:
+http://localhost:8501
+
+ Contributing
+Contributions are always welcome 🙌!
+Fork the repo, suggest improvements, squash bugs 🐞, or enhance UI/UX — let’s make this project smarter together.
+
+ License
+This project is licensed under the MIT License.
+Feel free to use, fork, and build on it — just give credit where it’s due ❤️.
+
+ My Learning Journey
+This project is #3 in my 100 Projects Challenge 💯.
+It reflects my deep dive into AI + NLP to empower job seekers. Every feature added here was guided by real-world use cases and user needs — and I'm just getting started! 💪
+
+More projects on the way... Stay tuned! 💻🧠🚀
+#100DaysOfMLCode #AI #ResumeTools #Python #Streamlit
+
+👩‍💻 Made with ❤️ by M.S. Rithika
+📎 LinkedIn
 More projects coming soon! 💻🧠✨
 
 #100DaysOfMLCode #MachineLearning #DataScience #Python
